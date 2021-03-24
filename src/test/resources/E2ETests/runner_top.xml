@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuitebyTop">
+	<parameter name="browser" value="Chrome" />
+	<parameter name="url" value="http://www.imdb.com/chart/top" />
+	<test name="Sort ">
+		<classes>
+			<class
+				name="com.automation.UIAutomationTest.TestCases.MovieListByTopMoviesTest" />
+			<class
+				name="com.automation.UIAutomationTest.TestCases.MovieListByGenreTest" />
+		</classes>
+	</test>
+</suite>
+
+
